@@ -20,8 +20,8 @@ def send_telegram_message(message, chat_id, token):
     return response.json()
 
 # Define your bot token and chat ID here (ensure these are kept secure)
-bot_token = '6557968983:AAFMniMYLYSzE7RkVPExI7oqAuCyfThIEIQ'  # Example token, replace with yours
-chat_id = '599444904'  # Replace 'YOUR_CHAT_ID' with your actual chat ID
+bot_token = ''  # Example token, replace with yours
+chat_id = ''  # Replace 'YOUR_CHAT_ID' with your actual chat ID
 
 # Initialize an empty list to collect headlines
 headlines = []
